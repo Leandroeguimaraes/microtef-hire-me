@@ -1,0 +1,16 @@
+﻿<Window x:Class="ClienteStoneAppWPF.TelaTransacao"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClienteStoneAppWPF"
+        mc:Ignorable="d"
+        Title="TelaTransacao" Height="482.939" Width="480.914">
+    <Grid>
+        <Label x:Name="lblTransacoes" Content="Transações" HorizontalAlignment="Left" Margin="35,28,0,0" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="tBTransacoes" HorizontalAlignment="Left" Height="314" Margin="35,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="405"/>
+        <Button x:Name="btnRetornar" Content="retornar" HorizontalAlignment="Left" Margin="285,31,0,0" VerticalAlignment="Top" Width="131" Click="btnRetornar_Click"/>
+        <Label x:Name="lblStatus" Content="Status" HorizontalAlignment="Left" Margin="35,416,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.1,0.791"/>
+
+    </Grid>
+</Window>

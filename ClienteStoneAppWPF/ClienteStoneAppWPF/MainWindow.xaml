@@ -1,0 +1,30 @@
+﻿<Window x:Class="ClienteStoneAppWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClienteStoneAppWPF"
+        mc:Ignorable="d"
+       
+        Title="Cliente Transações" Height="482.939" Width="480.914">
+    <Grid>
+        <Button x:Name="btnEnviar" Content="Enviar" HorizontalAlignment="Left" Margin="138,292,0,0" VerticalAlignment="Top" Width="159" Height="25" Click="btnEnviar_Click"/>
+        <TextBox x:Name="tBAgencia" HorizontalAlignment="Left" Height="23" Margin="138,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159"/>
+        <TextBox x:Name="tBConta" HorizontalAlignment="Left" Height="23" Margin="138,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159"/>
+        <TextBox x:Name="tBValor" HorizontalAlignment="Left" Height="23" Margin="138,244,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159"/>
+        <Label x:Name="lblAgencia" Content="Agência" HorizontalAlignment="Left" Margin="58,143,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblSenha" Content="Senha" HorizontalAlignment="Left" Margin="58,193,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblConta" Content="Conta" HorizontalAlignment="Left" Margin="58,100,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblValor" Content="Valor" HorizontalAlignment="Left" Margin="58,244,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label" Content="(somente números)" HorizontalAlignment="Left" Margin="331,100,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="(somente números)" HorizontalAlignment="Left" Margin="331,151,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblStatus" Content="Status:" HorizontalAlignment="Left" Margin="57,10,0,0" VerticalAlignment="Top" Height="31" Width="240"/>
+        <PasswordBox x:Name="pBSenha" HorizontalAlignment="Left" Margin="139,193,0,0" VerticalAlignment="Top" Height="26" Width="158"/>
+        <Button x:Name="btnExibirTransacoes" Content="Exibir Transações" HorizontalAlignment="Left" Margin="139,344,0,0" VerticalAlignment="Top" Width="158" RenderTransformOrigin="0.149,0.483" Height="25" Click="btnExibirTransacoes_Click"/>
+        <Label x:Name="lblIdCliente" Content="IdCliente :" HorizontalAlignment="Left" Margin="61,46,0,0" VerticalAlignment="Top" Width="236"/>
+        <Button x:Name="btnLimpar" Content="Limpar" HorizontalAlignment="Left" Margin="139,399,0,0" VerticalAlignment="Top" Width="158" Height="28" Click="btnLimpar_Click"/>
+        <Label x:Name="lblValorExemplo" Content="(ex: 70000,00)" HorizontalAlignment="Left" Margin="338,244,0,0" VerticalAlignment="Top" Width="106"/>
+
+
+    </Grid>
+</Window>

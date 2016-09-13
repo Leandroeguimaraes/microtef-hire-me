@@ -1,0 +1,26 @@
+Documentação 
+
+Instruções para rodar a aplicação :
+
+1- Visual Studio Enterprise (ASP.Net Web Application -> WebAPI )
+2- No Projeto "WEBAPI", na classe UsuarioDAO : 
+	Modificar o diretorio DataSource na string "dirBD", até a localização do arquivo Adquirente.accdb.(linha 15)
+3- No Projeto "WEBAPI", na classe TransacaoDAO : 
+	Modificar o diretorio DataSource na string "dirBD", até a localização do arquivo Adquirente.accdb.(linha 15)
+4- No Projeto ClienteStoneAppWPF, na classe MainWindow.xaml.cs:
+	 modificar url para o localhost do usuario.  (linha 35)
+5- No Projeto ClienteStoneAppWPF, na classe TelaTransacao.xaml.cs:
+	 modificar url dento da função "enviaDados" para o localhost do usuario.(linha 48)
+
+Tecnologias usadas:
+
+Visual Studio Enterprise 2015
+WPF -> para aplicação do cliente
+ASP.NET Web Application WebAPI  -> para aplicação do servidor
+Microsoft Access 2013 -> banco de dados
+JSon.Net (Newtonsoft.Json) para utlização do Json 
+
+Padrões de Projeto:
+
+MVC
+DAO
